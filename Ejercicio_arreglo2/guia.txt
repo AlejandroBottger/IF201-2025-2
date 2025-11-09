@@ -1,0 +1,49 @@
+GUÍA PRÁCTICA: Iteración y uso de funciones con arreglos de objetos en Python (con Tkinter)
+🎯 OBJETIVO
+
+Aprender a:
+Manejar arreglos (listas) de objetos en Python.
+Aplicar funciones integradas como min(), max(), sorted(), sum() y comprensiones.
+Visualizar datos usando una interfaz gráfica con Tkinter.
+
+🧩 DESCRIPCIÓN DEL PROYECTO
+
+Vamos a crear un sistema para gestionar socios del gimnasio FitLife, guardados en un archivo de texto (socios.txt).
+El programa mostrará los datos, permitirá filtrarlos y calculará estadísticas (máximo, mínimo y promedios).
+La interfaz se hará con Tkinter.
+
+
+🧱 BLOQUE 1: Archivo de datos
+📝 Pregunta / Instrucción
+
+Crea un archivo de texto llamado socios.txt con los datos de los socios del gimnasio FitLife.
+Cada línea debe contener los datos separados por punto y coma ; en el orden:
+código;nombre;edad;plan;mensualidad
+
+🧱 BLOQUE 2: Clase Socio y lectura del archivo
+📝 Pregunta / Instrucción
+
+Crea una clase Socio que almacene los datos de cada socio,
+y una clase ArchivoSocios que permita leer todos los socios desde el archivo socios.txt.
+
+🧱 BLOQUE 3: Funciones con arreglos de objetos
+📝 Pregunta / Instrucción
+
+Crea funciones que trabajen con la lista de objetos Socio,
+aplicando las funciones integradas de Python (max, min, sum, filter, map, etc.)
+
+🧱 BLOQUE 4: Interfaz gráfica con Tkinter
+📝 Pregunta / Instrucción
+
+Diseña una interfaz con Tkinter que:
+Muestre todos los socios en una tabla.
+Permita filtrar por tipo de plan.
+Muestre el socio con mayor mensualidad y el plan con menor promedio.
+Muestre un cuadro con los promedios por plan.
+
+🧩 BLOQUE 5: Conclusión
+
+Un arreglo de objetos se maneja fácilmente con listas en Python.
+Las funciones integradas (min, max, sum, sorted) pueden trabajar con objetos usando key.
+Las comprensiones (for al final) permiten construir listas, diccionarios o conjuntos de forma compacta.
+Con Tkinter, se pueden visualizar los datos de forma dinámica y amigable.

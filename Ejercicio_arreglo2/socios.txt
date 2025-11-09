@@ -1,0 +1,5 @@
+S001;Lucía Torres;25;Premium;150.00
+S002;Carlos Vega;30;Estándar;100.00
+S003;Ana Morales;22;Básico;70.00
+S004;Pedro Ramos;28;Premium;150.00
+S005;Mariana Díaz;27;Básico;80.00
